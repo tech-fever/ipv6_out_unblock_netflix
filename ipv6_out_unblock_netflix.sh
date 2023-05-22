@@ -82,4 +82,4 @@ create_outbound_json() {
 EOF
 }
 
-add_netflix_rule()
+add_netflix_rule
