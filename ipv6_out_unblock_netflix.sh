@@ -1,7 +1,7 @@
 # xrayr ipv6 分流解锁 Netflix 脚本
 
 XRAYR_FOLDER="/opt/xrayr"
-CONFIG_FOLDER="${XRAYR_FOLDER}/config"
+CONFIG_FOLDER="${XRAYR_FOLDER}/XrayrR"
 ROUTE_JSON="${CONFIG_FOLDER}/route.json"
 OUTBOUND_JSON="${CONFIG_FOLDER}/custom_outbound.json"
 
@@ -82,4 +82,5 @@ create_outbound_json() {
 EOF
 }
 
+# 运行函数
 add_netflix_rule
